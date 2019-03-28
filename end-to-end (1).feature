@@ -7,6 +7,7 @@ And Create Generic Workflow name "Test Approve Request"
 And Create Generic Request Body
 And Set default decision as "Approve"
 
+TEST
 
 Scenario: User can approve request without comment successfully
 Given User create Rule name "Rule name"
